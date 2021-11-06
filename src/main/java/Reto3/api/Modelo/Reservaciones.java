@@ -75,4 +75,12 @@ public class Reservaciones implements Serializable {
     public void setClient(Cliente client) {
         this.client = client;
     }
+
+    public String getScore() {
+        return score;
+    }
+
+    public void setScore(String score) {
+        this.score = score;
+    }
 }
